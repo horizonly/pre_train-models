@@ -44,4 +44,4 @@ train_features = extract_features(picture_dir, 4000)
 #end = time()
 #print(end - begin)
 train_features = np.reshape(train_features, (4000, 7*7*512))
-np.save('feature.npy', train_features)
+np.save('feature.npy', train_features)  #数据存储
